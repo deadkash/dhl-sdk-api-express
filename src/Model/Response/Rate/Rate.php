@@ -81,6 +81,14 @@ class Rate implements RateInterface
         return (float) $this->amount;
     }
 
+    /**
+     * @param float $amount
+     */
+    public function setAmount(float $amount): void
+    {
+        $this->amount = $amount;
+    }
+
     public function getCurrencyCode()
     {
         return (string) $this->currencyCode;

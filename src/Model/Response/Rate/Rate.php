@@ -80,15 +80,7 @@ class Rate implements RateInterface
     {
         return (float) $this->amount;
     }
-    
-    public function setAmount(float $amount): void
-    {
-        $this->amount = $amount;
-    }
 
-    /**
-     * @param float $amount
-     */
     public function setAmount(float $amount): void
     {
         $this->amount = $amount;
